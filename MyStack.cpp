@@ -26,7 +26,7 @@ int MyStack::Top()
 {
 	return  !IsEmpty() ? m_stackArray[m_top] : -1;
 }
-
+ 
 void MyStack::Pop()
 {
 	if (m_top <= -1)
